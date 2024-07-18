@@ -9,7 +9,7 @@ using namespace std;
 
 class Complex
 {
-    
+
 private:
     double real;
     double imag;
@@ -23,6 +23,7 @@ public:
 
 istream &operator>>(istream &is, Complex &c)
 {
+    // cout << "okay";
     cout << "Enter real part: ";
     is >> c.real;
     cout << "Enter imaginary part: ";
